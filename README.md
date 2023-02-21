@@ -3,10 +3,12 @@
 
 Branch 02-WithSubnet created for subnets and the same required branch created for 09-roboshop-infra also
 Finally subnets created with NAT Gateways & Internet Gateways in 2 regions
+
 Internet Gateway
 ---------------
 dev-public-subnet-1
 dev-public-subnet-2
+
 
 NAT Gateway
 ------------
