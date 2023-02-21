@@ -6,5 +6,3 @@ locals {
     owner         = "ecommerce-robot"
   }
 }
-
-
