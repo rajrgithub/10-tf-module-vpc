@@ -21,6 +21,14 @@ resource "aws_route_table" "route_table" {
     local.common_tags,
     { Name = "${var.env}-${var.name}-route_table" }
   )
+
+  // conf not to update route tables every time
+  lifecycle {
+    ignore_changes = [
+      route,
+    ]
+  }
+
 }
 
 resource "aws_route_table_association" "association" {
