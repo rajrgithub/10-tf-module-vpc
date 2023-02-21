@@ -4,7 +4,7 @@ Branch 03-WithDocDB-Mango created for mango Db creation and the same required br
 
 Use the "03-WithDocDB-Mango" branches of 
 
-09-roboshop-infra
-10-tf-module-vpc
-12-tf-module-docdb
+09-roboshop-infra  
+10-tf-module-vpc  
+12-tf-module-docdb  
 04-roboshop-ansible - AWS paramater created for DOC DB
